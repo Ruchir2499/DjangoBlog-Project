@@ -1,1 +1,1 @@
-web: gunicorn django_project.wsgi --timeout 15 --keep-alive 5 --log-level debug
+web: gunicorn django_project.wsgi
